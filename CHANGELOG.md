@@ -2,6 +2,13 @@
 
 All notable changes to `mateusjunges/laravel-acl` will be documented in this file.
 
+# 2.5.1
+- Fix user model namespace for laravel v8.x
+
+# 2.5.0
+- Add support for Laravel v8.x
+- Drop suppport for PHP v7.2 and lower
+
 # 2.4.7
 - Permission and group middleware now trhows UnauthorizedException with denied permissions and groups in exception headers (#175)
 
